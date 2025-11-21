@@ -44,3 +44,15 @@ def geometric_height_from_geopotential_height(*args, **kwargs):
 
 def geometric_height_from_geopotential(*args, **kwargs):
     return array.geometric_height_from_geopotential(*args, **kwargs)
+
+
+def interpolate_k2p(*args, **kwargs):
+    return array.interpolate_k2p(*args, **kwargs)
+
+
+def interpolate_k2theta(*args, **kwargs):
+    return array.interpolate_k2theta(*args, **kwargs)
+
+
+def interpolate_k2any(*args, **kwargs):
+    return array.interpolate_k2any(*args, **kwargs)
