@@ -17,3 +17,4 @@ planned to work with objects like *earthkit.data FieldLists* or *xarray DataSets
 
 
 from .vertical import *  # noqa
+from .interpolaton import *  # noqa
